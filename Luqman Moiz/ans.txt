@@ -1,3 +1,0 @@
-i am bot
-my name is Django
-cricket
