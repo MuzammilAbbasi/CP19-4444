@@ -1,18 +1,11 @@
-n = input('Enter Number with commas : ')
-n = n+','
-w = ''
-maxi = 0
-mini = 1111111111111111111111111
-for l in n:
-    if(l!=','):
-        w += l
-        o = int(w)
-    elif(l==','):
-        if(maxi<o):
-            maxi = o
-        if(mini>o):
-            mini = o
-        w = ''
-    
-print('maximum',maxi)
-print('minimum',mini)
+X = int(input("Enter a 5 digit number: "))
+reversed_order = 0
+for i in range(1,6):
+        
+    reminder = X%10
+        
+    print("Reminder is:",reminder)
+    X = X//10
+    print("Number left:",X)
+    reversed_order = reversed_order+(reminder*(10**(5-i)))
+    print("Reverse order of number is",reversed_order)
