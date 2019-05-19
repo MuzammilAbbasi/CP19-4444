@@ -1,15 +1,13 @@
-import math
-
-num = input('Enter any Number')
-j = 1
-while(j <= 5):
-    if(num != 'x'):
-        num = int(num)
-        m = int(math.sqrt(num))
-        if(num == m*m):
-          print(num,"is a Perfect Square",m)
-        elif(num != m*m):
-          print(num,"is Not Perfect Square")
-        num = input('Enter any Number')
-    elif(num == 'x'):
-        break
+num =int(input('Enter Five Numbers: '))
+b = num
+a = 0
+for l in range(5):
+    r = b%10
+    a = (a*10)+r
+    b = b//10
+print(a)
+k = num - a
+if(k == 0):
+    print('Reversed Number Is Same')
+else:
+    print('Reversed Number Is Not Same')

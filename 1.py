@@ -1,40 +1,19 @@
-for i in range(6):
-    if(i==1):
-        for l in range(4):
-            print(' ',end='')
-        for j in range(1):
-            print('4')
-    elif(i==2):
-        for l in range(3):
-            print(' ',end='')
-        for j in range(3):
-            if(j%2==0):
-                print('2',end='')
-            elif(j%2==1):
-                print('4',end='')
+def func():
+    rows = int(input('How many rows you want : '))
+    num1 = input('Enter 1st For Shape : ')
+    num2 = input('Enter 2nd For Shape : ')
+    k = rows
+    u = 1
+    for i in range(1,rows+1):
+        for l in range(k):
+            print(' ',end=' ')
+        k = k-1
+        for j in range(u):
+            if((j%2) == 1):
+                print(num2,end=' ')
+            else:
+                print(num1,end=' ')
+        u = 2+u
         print()
-    elif(i==3):
-        for l in range(2):
-            print(' ',end='')
-        for j in range(5):
-            if(j%2==0):
-                print('4',end='')
-            elif(j%2==1):
-                print('2',end='')
-        print()
-    elif(i==4):
-        for l in range(1):
-            print(' ',end='')
-        for j in range(7):
-            if(j%2==0):
-                print('2',end='')
-            elif(j%2==1):
-                print('4',end='')
-        print()
-    elif(i==5):
-        for j in range(9):
-            if(j%2==0):
-                print('4',end='')
-            elif(j%2==1):
-                print('2',end='')
-        print()
+
+func()

@@ -1,69 +1,36 @@
-for i in range(10):
-    if(i==1):
-        for l in range(4):
-            print(' ',end='')
-        for j in range(1):
-            print('4')
-    elif(i==2):
-        for l in range(3):
-            print(' ',end='')
-        for j in range(4):
-            if(j==1 or j==3):
-                print('2',end='')
-            elif(j==2):
-                print('4',end='')
-        print()
-    elif(i==3):
-        for l in range(2):
-            print(' ',end='')
-        for j in range(1,6):
-            if(j==3):
-                print('4',end='')
+def sidesquare():
+    rows = int(input('How many rows you want : '))
+    num1 = input('Enter 1st For Shape : ')
+    num2 = input('Enter 2nd For Shape : ')
+    k = rows
+    u = 1
+    h = 2
+    n = 1
+    for i in range(1,rows+1):
+        for l in range(k):
+            print(' ',end=' ')
+        k = k-1
+        for j in range(1,u+1):
+            if(j == n or (n%rows) == 0):
+                print(num1,end=' ')
             else:
-                print('2',end='')
+                print(num2,end=' ')
+        n = n+1
         print()
-    elif(i==4):
-        for l in range(1):
-            print(' ',end='')
-        for j in range(1,8):
-            if(j==4):
-                print('4',end='')
+        u = 2+u
+    u = u-2
+    n = n-3
+    for i in range(1,rows):
+        for l in range(h):
+            print(' ',end=' ')
+        h = h+1
+        u = u-2
+        for j in range(u):
+            if(j == n):
+                print(num1,end=' ')
             else:
-                print('2',end='')
+                print(num2,end=' ')
+        n -= 1
         print()
-    elif(i==5):
-        for j in range(1,10):
-                print('4',end='')
-        print()
-    elif(i==6):
-        for l in range(1):
-            print(' ',end='')
-        for j in range(1,8):
-            if(j==4):
-                print('4',end='')
-            else:
-                print('2',end='')
-        print()
-    elif(i==7):
-        for l in range(2):
-            print(' ',end='')
-        for j in range(1,6):
-            if(j==3):
-                print('4',end='')
-            else:
-                print('2',end='')
-        print()
-    elif(i==8):
-        for l in range(3):
-            print(' ',end='')
-        for j in range(4):
-            if(j==1 or j==3):
-                print('4',end='')
-            elif(j==2):
-                print('4',end='')
-        print()
-    elif(i==9):
-        for l in range(4):
-            print(' ',end='')
-        for j in range(1):
-            print('4')
+
+sidesquare()

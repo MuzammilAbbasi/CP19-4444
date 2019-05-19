@@ -1,13 +1,17 @@
-word = input('Enter any Word')
-j = 1
-w = 0
-length = 0
-while(j<=2):
-    if(word == '' or word == ' '):
-        break
-    else:
-        length = len(word) + length
-        w += 1
-    word = input('Enter any Word')
-average = length/w
-print('Average length',round(average,0))
+def func():
+    num = int(input('Write numbers in series '))
+    a = 0
+    b = 1
+    print(a,',',b,end=' , ')
+    for l in range(num):
+        if(l%2==1):
+            c = a + b
+            b = c
+            print(b,end=' , ')
+        elif(l%2==0):
+            c = a + b
+            a = c
+            print(a,end=' , ')
+    print()
+
+func()

@@ -1,5 +1,7 @@
-for p in range(10,81,10):
-    k = p*1.60934
-    print('Distance in miles',p,end='')
-    print(' | ',end='')
-    print('Distance in kilometer',round(k,2))
+mass = int(input('Enter Mass : '))        
+velocity = int(input('Enter Velocity : '))
+def kinetic_energy(a,b):
+    KE = (1/2)*((a)*(b**2))
+    print(KE)
+
+kinetic_energy(mass,velocity)
