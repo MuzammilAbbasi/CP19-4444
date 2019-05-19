@@ -1,18 +1,13 @@
-n = input('Enter Number with commas : ')
-n = n+','
-w = ''
-maxi = 0
-mini = 1111111111111111111111111
-for l in n:
-    if(l!=','):
-        w += l
-        o = int(w)
-    elif(l==','):
-        if(maxi<o):
-            maxi = o
-        if(mini>o):
-            mini = o
-        w = ''
-    
-print('maximum',maxi)
-print('minimum',mini)
+num =int(input('Enter Five Numbers: '))
+b = num
+a = 0
+for l in range(5):
+    r = b%10
+    a = (a*10)+r
+    b = b//10
+print(a)
+k = num - a
+if(k == 0):
+    print('Reversed Number Is Same')
+else:
+    print('Reversed Number Is Not Same')

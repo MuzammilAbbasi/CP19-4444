@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+  <title>Electronic Liberty</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+
+
+
+
+</head>
+
+<body>
+<div id="main">
+<div id="header">
+    <div id="logo">
+        <div id="logo_text">
+        <h1><a>Liberty<span class="logo_colour">Electronics</span></a></h1>
+       
+       <a href="Button map.html"> <div  class="submit1"><p style="padding-top: 15px"><span>&nbsp;</span><input class="Submit1" type="button" name="contact_submitted" value="Site Map"  /></p></a>
+<form class="searchform cf">
+  <input type="text" placeholder="Is it me you’re looking for?">
+  <button type="submit">Search</button>
+</form>
+<div id="logomast"><img src="style/logo.jpg"></div>
+</div>
+</div>
+</div>
+          
+</div>
+           
+      </div>
+</div>
+<center><ul id="menu-bar">
+ <li ><a href="index.html">Home</a></li>
+ <li><a href="contact.html">Products</a>
+  <ul>
+   <li><a href="Apple-pro.html">Apple</a></li>
+   <li><a href="Samsung-pro.html">Samsung</a></li>
+   <li><a href="Sony-pro.html">Sony</a></li>
+   <li><a href="Hp-pro.html">Hewlett-Packard</a></li>
+   <li><a href="Dell-pro.html">Dell</a></li>
+   </ul>   <li><a href="#">Compare</a></li>
+   <li><a href="Partners.html">Partners</a></li>
+ <li><a href="contact-4.html">Contact</a></li>
+ <ul>
+ <li><a href="#">Site Map</a></li></ul>
+ <li class="selected"><a href="About.html">About</a></li>
+<li><a href="feedback.html">Feedback</a></li>
+</ul></center>
+
+    <div id="site_content">
+    <div id="content">
+
+
+
+
+
+
+
+
+<h1><b><u>4) HEWLETT-PACKARD:<img src="style/hp-icon.png"></b></u></h1>
+<h1><b><u>Products:</b></u></h1>
+<p><a href="Hp Mobilephones.html">1) Mobile-Phones<br></a>
+<a href="hp lcd and led.html">2) LCD & LED Panels<br></a>
+<a href="printer.html">3) Printers<br></a>
+<a href="digitalcameras.html">4) DigitalCameras<br></a></p>
+</br>
+
+</div>
+</div>
+
+
+
+
+
+        <div id="footer"><img  src="style/visa-icon.png"><img src="style/Master-Card-Blue-icon.png">
+    LIBERTY ELECTRONIC.INC | Aptech North Karachi  | HTMS PRODUCTION<img src="style/Internet-Explorer-icon.png"><img src="style/Linux-icon.png">
+    </div>
+  </div>
+</body>
+</html>
