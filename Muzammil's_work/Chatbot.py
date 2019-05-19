@@ -25,6 +25,7 @@ for n in data2:
     answers.append(n)
 def chat():
     inputer = l2.get()
+    l4.insert(END,'you : ' + inputer+ '\n')
     for i in predic:
         a = fuzz.partial_ratio(inputer,i)
         if a > 95:
