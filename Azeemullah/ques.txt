@@ -14,3 +14,4 @@ what time is it
 what are your hobbies
 where do you live
 Do you like celebrity
+bye
