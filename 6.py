@@ -1,15 +1,4 @@
-Num = int(input("Enter a number: "))
-if Num>1:
-    for i in range(2,Num):
-        if (Num%i)==0:
-            print(Num, "is not a prime number")
-            break
-            
-    else:
-        print(Num, "is prime number")
-
-else:
-    print(Num, "is not a prime number")
-
-
-
+oceanlev = 1.6
+for o in range (1,26):
+    t = o*oceanlev
+    print('OCEAN LEVEL WILL BE IN ',o,'YEAR IS ',round(t,3),'mm')

@@ -1,11 +1,13 @@
-number = int(input("Enter number you want: "))
-Previous_1 = 0
-Previous_2 = 1
-print(Previous_1," , ",Previous_2,end=" , ")
-for i in range(1,number):
-    Next = Previous_1 + Previous_2
-    print(Next, end=" , ")
-
-    Previous_1 = Previous_2
-    Previous_2 = Next
-    
+word = input('Enter any Word')
+j = 1
+w = 0
+length = 0
+while(j<=2):
+    if(word == '' or word == ' '):
+        break
+    else:
+        length = len(word) + length
+        w += 1
+    word = input('Enter any Word')
+average = length/w
+print('Average length',round(average,0))

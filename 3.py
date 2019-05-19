@@ -1,18 +1,15 @@
-n = input('Enter Number with commas : ')
-n = n+','
-w = ''
-maxi = 0
-mini = 1111111111111111111111111
-for l in n:
-    if(l!=','):
-        w += l
-        o = int(w)
-    elif(l==','):
-        if(maxi<o):
-            maxi = o
-        if(mini>o):
-            mini = o
-        w = ''
-    
-print('maximum',maxi)
-print('minimum',mini)
+import math
+
+num = input('Enter any Number')
+j = 1
+while(j <= 5):
+    if(num != 'x'):
+        num = int(num)
+        m = int(math.sqrt(num))
+        if(num == m*m):
+          print(num,"is a Perfect Square",m)
+        elif(num != m*m):
+          print(num,"is Not Perfect Square")
+        num = input('Enter any Number')
+    elif(num == 'x'):
+        break
