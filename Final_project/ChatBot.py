@@ -17,7 +17,7 @@ data1 = open(r'ques.txt', 'r+')
 data2 = open(r'ans.txt', 'r+')
 predic = []
 answers = []
-p.configure(bg="blue")
+p.configure(bg="grey")
 p.title('ChatBot')
 for u in data1: 
     predic.append(u)
